@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AbuCleaning</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/fovicon.svg">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="body" id="top">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__item">
+                        <button class="burger">
+                            <span class="burger-line"></span>
+                        </button>
+                        <nav class="nav">
+                            <div class="menu-box"></div>
+                            <ul class="menu">
+                                <button class="menu__btn">
+                                    <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 20L4 4.00003M20 4L4.00002 20" stroke="#8BAAC9" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                </button>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#services">
+                                        Услуги
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#gallery-block">
+                                        Фотогалерея
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#stocks">
+                                        Новости и акции
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#reviews">
+                                        Отзывы о нас
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#consultation">
+                                        Консультация менеджера
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a class="logo" href="#top">
+                            <img src="images/AbuCleaning_logo.png" alt="">
+                        </a>
+                        <p class="header__text">
+                            Клининговые услуги
+                        </p>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__social">
+                            <a class="header__social-whatsapp" href="#?">
+                                <img src="images/icons/whatsapp.svg" alt="">
+                            </a>
+                            <a class="header__social-telegram" href="#?">
+                                <img src="images/icons/telegram.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header__contact">
+                            <p>8 800 333-55-55</p>
+                            <p>+7 928 231 10 09</p>
+                        </div>
+                        <button class="header__btn" data-modal="#modal__application">
+                            Обратный звонок
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="intro" style="background-image: url(images/bg/intro-bg.jpg)">
+            <div class="container">
+                <div class="intro__content">
+                    <h1 class="intro__title">
+                        Предоставляем клининговые услуги
+                        от уборки домов до химчистки мебели
+                    </h1>
+                    <p class="intro__text">
+                        Если вы хотите сэкономить время, избавиться от лишних трудозатрат и при этом обеспечить идеальную чистоту, мы готовы прийти на помощь!
+                    </p>
+                    <button class="intro__btn page__btn" data-modal="#modal__application" data-gall>
+                        Оставить заявку
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h3 class="services__title page__title">
+                    Полный спектр услуг
+                </h3>
+                <div class="services__inner">
+                    <div class="services__item">
+                        <div class="services__item-content">
+                            <h6 class="services__item-title">
+                                Уборка квартир
+                            </h6>
+                            <a class="services__item-link" href="#?" data-modal="#modal__services-apartment">
+                                Читать подробнее
+                            </a>
+                        </div>
+                        <img class="services__item-img" src="images/services/services-img-1.png" alt="">
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item-content">
+                            <h6 class="services__item-title">
+                                Уборка домов
+                            </h6>
+                            <a class="services__item-link" href="#?" data-modal="#modal__services-house">
+                                Читать подробнее
+                            </a>
+                        </div>
+                        <img class="services__item-img" src="images/services/services-img-2.png" alt="">
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item-content">
+                            <h6 class="services__item-title">
+                                Уборка коттежей
+                            </h6>
+                            <a class="services__item-link" href="#?" data-modal="#modal__services-cottage">
+                                Читать подробнее
+                            </a>
+                        </div>
+                        <img class="services__item-img" src="images/services/services-img-3.png" alt="">
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item-content">
+                            <h6 class="services__item-title">
+                                Уборка офисов
+                            </h6>
+                            <a class="services__item-link" href="#?" data-modal="#modal__services-office">
+                                Читать подробнее
+                            </a>
+                        </div>
+                        <img class="services__item-img" src="images/services/services-img-4.png" alt="">
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item-content">
+                            <h6 class="services__item-title">
+                                Уборка после ремонта
+                            </h6>
+                            <a class="services__item-link" href="#?" data-modal="#modal__services-repair">
+                                Читать подробнее
+                            </a>
+                        </div>
+                        <img class="services__item-img" src="images/services/services-img-5.png" alt="">
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item-content">
+                            <h6 class="services__item-title">
+                                Химчистка мебели
+                            </h6>
+                            <a class="services__item-link" href="#?" data-modal="#modal__services-furniture">
+                                Читать подробнее
+                            </a>
+                        </div>
+                        <img class="services__item-img" src="images/services/services-img-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why">
+            <div class="why-box">
+                <div class="container">
+                    <div class="why__inner" id="why">
+                        <div class="why__item">
+                            <h3 class="why__title page__title">
+                                Почему мы?
+                            </h3>
+                            <p class="why__text">
+                                Значимость этих проблем настолько очевидна, что новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в форм
+                            </p>
+                            <a class="why__btn page__btn" data-fancybox="gallery" href="images/gallery/gallery-1.jpg">
+                                Смотреть фотогалерею
+                            </a>
+                            <div class="gallery-box">
+                                <a data-fancybox="gallery" href="images/10.jpg">
+                                    <img class="rounded" src="images/10.jpg" />
+                                </a>
+                                <a data-fancybox="gallery" href="images/14.jpg">
+                                    <img class="rounded" src="images/14.jpg" />
+                                </a>
+                                <a data-fancybox="gallery" href="images/15.jpg">
+                                    <img class="rounded" src="images/15.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="why__cards">
+                            <h5 class="why__cards-title">
+                                Преимущества работы с нами
+                            </h5>
+                            <div class="why__cards-inner">
+                                <div class="why__cards-item">
+                                    <div class="why__cards-number">
+                                        1
+                                    </div>
+                                    <img class="why__cards-img" src="images/icons/cards-1.svg" alt="">
+                                    <h6 class="why__cards-text">
+                                        Работаем
+                                        24/7
+                                    </h6>
+                                </div>
+                                <div class="why__cards-item">
+                                    <div class="why__cards-number">
+                                        2
+                                    </div>
+                                    <img class="why__cards-img" src="images/icons/cards-2.svg" alt="">
+                                    <h6 class="why__cards-text">
+                                        Оплата
+                                        после уборки
+                                    </h6>
+                                </div>
+                                <div class="why__cards-item">
+                                    <div class="why__cards-number">
+                                        3
+                                    </div>
+                                    <img class="why__cards-img" src="images/icons/cards-3.svg" alt="">
+                                    <h6 class="why__cards-text">
+                                        Опыт работы
+                                        более 15 лет
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery-block">
+            <div class="container">
+                <h3 class="gallery__title page__title">
+                    Фотогалерея
+                </h3>
+                <div class="gallery__slider">
+                    <img class="gallery__img" src="images/gallery/gallery-1.jpg" alt="">
+                    <img class="gallery__img" src="https://wallpapercave.com/wp/wp2636849.jpg" alt="">
+                    <img class="gallery__img" src="https://phonoteka.org/uploads/posts/2021-06/1624042150_13-phonoteka_org-p-itachi-oboi-na-rabochii-stol-krasivo-14.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <div class="news__inner">
+                    <div class="stocks" id="stocks">
+                        <h3 class="stocks__title page__title">
+                            Новости и акции
+                        </h3>
+                        <div class="stocks__inner">
+                            <div class="stocks__item">
+                                <img class="stocks__item-img" src="images/news/news-1.jpg" alt="">
+                                <p class="stocks__item-date">
+                                    8 июля 2021
+                                </p>
+                                <h6 class="stocks__item-title">
+                                    Повышение цен
+                                </h6>
+                            </div>
+                            <div class="stocks__item">
+                                <img class="stocks__item-img" src="images/news/news-2.jpg" alt="">
+                                <p class="stocks__item-date">
+                                    8 июля 2021
+                                </p>
+                                <h6 class="stocks__item-title">
+                                    Появились в наличии новые модели
+                                </h6>
+                            </div>
+                            <div class="stocks__item">
+                                <img class="stocks__item-img" src="images/news/news-3.jpg" alt="">
+                                <p class="stocks__item-date">
+                                    8 июля 2021
+                                </p>
+                                <h6 class="stocks__item-title">
+                                    Повышение цен
+                                </h6>
+                            </div>
+                            <div class="stocks__item">
+                                <img class="stocks__item-img" src="images/news/news-4.jpg" alt="">
+                                <p class="stocks__item-date">
+                                    8 июля 2021
+                                </p>
+                                <h6 class="stocks__item-title">
+                                    Появились в наличии новые модели
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews" id="reviews">
+                        <h3 class="reviews__title page__title">
+                            Отзывы о нас
+                        </h3>
+                        <div class="reviews__inner">
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <h6 class="reviews__item-title">
+                                        Василий Андреевич
+                                    </h6>
+                                    <p class="reviews__item-date">
+                                        8 июля 2021
+                                    </p>
+                                </div>
+                                <p class="reviews__item-city">
+                                    г. Москва
+                                </p>
+                                <p class="reviews__item-text">
+                                    Значимость этих проблем настолько очевидна, что новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития / Значимость этих проблем настолько очевидна, что новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития
+                                </p>
+                            </div>
+                            <div class="reviews__item">
+                                <div class="reviews__item-top">
+                                    <h6 class="reviews__item-title">
+                                        Василий Андреевич
+                                    </h6>
+                                    <p class="reviews__item-date">
+                                        8 июля 2021
+                                    </p>
+                                </div>
+                                <p class="reviews__item-city">
+                                    г. Москва
+                                </p>
+                                <p class="reviews__item-text">
+                                    Значимость этих проблем настолько очевидна, что новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития / Значимость этих проблем настолько очевидна, что новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="consultation" style="background-image: url(images/bg/consultation-bg.jpg)">
+            <div class="container">
+                <h3 class="consultation__title page__title" id="consultation">
+                    Нужна консультация менеджера?
+                </h3>
+                <form class="consultation__form">
+                    <div class="consultation__input">
+                        <label>Ваше имя</label>
+                        <input class="consultation__name input-words" type="text" name="name" placeholder="Александр">
+                    </div>
+                    <div class="consultation__input">
+                        <label>Ваш телефон</label>
+                        <input class="consultation__number" type="text" name="name" placeholder="+7 (___) - ___-__-__">
+                    </div>
+                    <div class="consultation__input">
+                        <label>Ваше сообщение</label>
+                        <input class="consultation__question" type="text" name="name" placeholder="Введите свой вопрос">
+                    </div>
+                    <button class="consultation__btn page__btn">
+                        Отправить
+                    </button>
+                </form>
+                <label class="consultation__label"><input type="checkbox" name="checkbox" value="value">Я даю своё согласие на обработку персональных данных</label>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <a class="footer__logo-link" href="#top">
+                            <img class="footer__logo-img" src="images/AbuCleaning_logo.png" alt="">
+                        </a>
+                        <p class="footer__logo-text">
+                            Клининговые услуги
+                        </p>
+                        <p class="footer__copy">
+                            2021 (с) – ООО "Абу Клининг”. <br>
+                            Все права защищены
+                        </p>
+                    </div>
+                    <ul class="footer__list footer__services">
+                        <li class="footer__list-title">
+                            Услуги
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#?" data-modal="#modal__services-apartment">
+                                Уборка квартир
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#?" data-modal="#modal__services-house">
+                                Уборка домов
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#?" data-modal="#modal__services-cottage">
+                                Уборка коттеджей
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#?" data-modal="#modal__services-office">
+                                Уборка офисов
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list footer__info">
+                        <li class="footer__list-title">
+                            Информация
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#stocks">
+                               Новости
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#reviews">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#why">
+                                Наше преимущества
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__list-link" href="#gallery-block">
+                                Фотогалерея
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer__contact">
+                        <p class="footer__contact-phone">
+                            8 800 333-55-55
+                        </p>
+                        <p class="footer__contact-text">
+                            Бесплатно по Казахстану
+                        </p>
+                        <p class="footer__contact-phone">
+                            8 800 333-55-55
+                        </p>
+                        <p class="footer__contact-email">
+                            Info@mail.ru
+                        </p>
+                        <p class="footer__contact-text">
+                            Для электронных писем
+                        </p>
+                        <div class="footer__contact-social">
+                            <a class="footer__contact-whatsapp" href="#?">
+                                <img src="images/icons/whatsapp.svg" alt="">
+                            </a>
+                            <a class="footer__contact-telegram" href="#?">
+                                <img src="images/icons/telegram.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- modal start -->
+
+        <div class="modal" id="modal__application">
+            <div class="modal__content modal__application">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close.svg" alt="X">
+                </button>
+                <h4 class="modal__application-title">
+                    Оставить заявку
+                </h4>
+                <p class="modal__application-text">
+                    Ответим на все ваши вопросы
+                </p>
+                <form class="modal__application-form">
+                    <input class="modal__application-input input-words" type="text" name="name" placeholder="Ваше имя">
+                    <input class="modal__application-input" type="number" name="number" placeholder="+7 (___) - ___-__-__">
+                    <input class="modal__application-btn page__btn" type="submit" data-modal="#modal__thanks" value="Жду звонка">
+                    <div class="modal__application-checkbox">
+                        <input class="modal__application-check" type="checkbox" id="checkbox_1">
+                        <label class="modal__application-label" for="checkbox_1">
+                            Я даю своё согласие на обработку
+                            персональных данных
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal" id="modal__thanks">
+            <div class="modal__content modal__thanks">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close.svg" alt="X">
+                </button>
+                <h4 class="modal__thanks-title">
+                    Спасибо, <br>
+                    что выбрали нас
+                </h4>
+                <p class="modal__thanks-text">
+                    Наш менеджер с вами свяжется
+                    в ближайшее время
+                </p>
+            </div>
+        </div>
+
+
+
+        <!-- services modals -->
+
+        <div class="modal" id="modal__services-apartment">
+            <div class="modal__content modal__services">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close-2.svg" alt="X">
+                </button>
+                <div class="modal__services-top">
+                    <h4 class="modal__services-title">
+                        Уборка квартир
+                    </h4>
+                    <img class="modal__services-img" src="images/services/services-img-1.png" alt="">
+                </div>
+                <p class="modal__services-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                </p>
+            </div>
+        </div>
+        <div class="modal" id="modal__services-house">
+            <div class="modal__content modal__services">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close-2.svg" alt="X">
+                </button>
+                <div class="modal__services-top">
+                    <h4 class="modal__services-title">
+                        Уборка домов
+                    </h4>
+                    <img class="modal__services-img" src="images/services/services-img-2.png" alt="">
+                </div>
+                <p class="modal__services-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                </p>
+            </div>
+        </div>
+        <div class="modal" id="modal__services-cottage">
+            <div class="modal__content modal__services">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close-2.svg" alt="X">
+                </button>
+                <div class="modal__services-top">
+                    <h4 class="modal__services-title">
+                        Уборка коттежей
+                    </h4>
+                    <img class="modal__services-img" src="images/services/services-img-3.png" alt="">
+                </div>
+                <p class="modal__services-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                </p>
+            </div>
+        </div>
+        <div class="modal" id="modal__services-office">
+            <div class="modal__content modal__services">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close-2.svg" alt="X">
+                </button>
+                <div class="modal__services-top">
+                    <h4 class="modal__services-title">
+                        Уборка офисов
+                    </h4>
+                    <img class="modal__services-img" src="images/services/services-img-4.png" alt="">
+                </div>
+                <p class="modal__services-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                </p>
+            </div>
+        </div>
+        <div class="modal" id="modal__services-repair">
+            <div class="modal__content modal__services">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close-2.svg" alt="X">
+                </button>
+                <div class="modal__services-top">
+                    <h4 class="modal__services-title">
+                        Уборка после ремонта
+                    </h4>
+                    <img class="modal__services-img" src="images/services/services-img-5.png" alt="">
+                </div>
+                <p class="modal__services-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                </p>
+            </div>
+        </div>
+        <div class="modal" id="modal__services-furniture">
+            <div class="modal__content modal__services">
+                <button class="modal__close" data-close="">
+                    <img src="images/icons/modal-close-2.svg" alt="X">
+                </button>
+                <div class="modal__services-top">
+                    <h4 class="modal__services-title">
+                        Химчистка мебели
+                    </h4>
+                    <img class="modal__services-img" src="images/services/services-img-6.png" alt="">
+                </div>
+                <p class="modal__services-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, commodi vero quia minima optio voluptatum, qui veniam adipisci consequatur, fugit obcaecati saepe dolorem vitae ea beatae odio cumque amet voluptatem?
+                </p>
+            </div>
+        </div>
+
+        <!-- services modals -->
+
+        <!-- modal end -->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.elimore.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/app.js"></script>
+    </div>
+</body>
+
+</html>
